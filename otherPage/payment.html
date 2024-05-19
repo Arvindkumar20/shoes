@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Section</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="shopping.css">
+
+</head>
+<body>
+    <main class="payment-container">
+        <div class="left-container">
+            <h2>Checkout</h2>
+            <p>Contact Details</p>
+            <form>
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" placeholder="Email" class="email" required>
+
+                <h3>Payment Options</h3>
+                <div class="payment-options">
+                    <section id="payment-method">
+                        <div class="bank"><img src="../img/card.webp" alt="">
+                            <br>
+                        Card</div>
+                        <div  class="bank"><img src="../img/crtp.webp" alt="">
+                            <br>
+
+                       Bripto</div>
+                        <div  class="bank"><img src="../img/bnk.webp" alt="">
+                            <br>
+
+                        Bank</div>
+                        <div  class="bank">...</div>
+                    </section>
+                    <div class="card-details">
+                        <label for="card-number">Card Number:</label>
+                        <input type="text" id="card-number" name="card-number" placeholder="**********" required>
+<br>
+    <div class="etries">
+        <div class="one">
+            
+        <label for="expiry">Expiry : </label>
+        <br>
+        <input type="date" id="expiry" name="expiry"  required>
+     <br>
+        <label for="cvv">CVV : </label>
+        <br>
+        <input type="text" id="cvv" name="cvv" placeholder="****" required>
+    
+        </div>
+        <div class="one">
+            
+        <label for="country">Country : </label>
+        <br>
+        <input type="text" id="country" placeholder="India" name="country" required>
+       <br>
+        <label for="zip-code">Zip Code : </label>
+        <br>
+        <input type="text" id="zip-code" placeholder="XXXXXX" name="zip-code" required>
+        </div>
+    </div>
+                    </div>
+                </div>
+
+               
+            </form>
+        </div>
+
+        <div class="right-container">
+            <div class="summary-card">
+                <p >Enter coupon code</p>
+                    <br>
+                <div class="coupon-section">
+                    
+                    <input type="text" placeholder="Coupon Code">
+                    <button class="apply-coupon-btn">Apply Coupon</button>
+                </div>
+                <div class="summary-details">
+                    <p>Sub Total: <span>$35.00</span></p>
+                    <p>Taxes: <span>$3.50</span></p>
+                    <p>Discount: <span>$-5.00</span></p>
+                    <p>Total: <span>$33.50</span></p>
+                </div>
+            </div>
+            <button class="pay-now-btn">Pay Now $ 33.50</button>
+            <div class="payment-icons">
+                <img src="../img/pay.webp" alt="Razorpay">
+                <img src="../img/razorpay.webp" alt="Razorpay">
+                <img src="../img/secure.webp" alt="Razorpay">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

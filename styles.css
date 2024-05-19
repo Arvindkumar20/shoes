@@ -1,0 +1,215 @@
+
+/* .Navbarbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* overflow: hidden; */
+}
+/* navigation bar */
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar {
+    width: 65%;
+    display: flex;
+    padding: 4vh 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .small{
+    display: none;
+}
+
+header .logo{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(230, 102, 124);
+}
+header .logo span{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(25, 39, 244);
+}
+
+header .menu ul{
+margin-right: 2vw;
+display: flex;
+font-size: 1.3rem;
+font-weight: 600;
+list-style: none;
+justify-content: space-around;
+gap: 3vw;
+}
+
+header .menu ul a{
+text-decoration: none;
+color: black;
+}
+
+header .menu ul a:hover{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid rgb(128, 68, 0);
+    }
+
+header .menu ul select{
+    font-size: 1.1rem;
+    font-weight: 600;
+     border: none;
+     border-radius: 5px;
+}
+
+.search-section{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.search-section .search-bar .search-box{
+    display: flex;
+    border: 2px solid black;
+  border-radius: 8px;
+
+}
+
+.search-section .search-bar .search-box img{
+    padding: 3px;
+    width: 2.5vw;
+    height: 2.5vw;
+    cursor: pointer;
+}
+
+.search-section .search-bar input{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+margin-left: 15px;
+
+}
+
+.search-section .card-section{
+    cursor: pointer;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    background: #e0dddd;
+    border-radius: 6px;
+    padding: 3px 3px;
+}
+
+.search-section .card-section img{
+    width: 2.5vw;
+    height: 2.5vw;
+    /* border-radius: 1.5vw; */
+}
+
+.search-section .profile img{
+cursor: pointer;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1.5vw;
+    margin-right: 10px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hero .left{
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.hero .left img{
+    width: 150px;
+    height: 30px;
+}
+
+.hero .left p{
+    font-size: 1rem;
+    line-height: 20px;
+    word-spacing: 3px;
+}
+.hero .left h1{
+    font-size: 4rem;
+    word-spacing: 10px;
+    font-weight: bold;
+
+}
+.hero .left h1 span{
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(240, 185, 66);
+}
+.hero .left .shopping{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 5px 10;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background: #000;
+    color: white;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hero .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.hero .right img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* Service Overview Section */
+.service-overview {
+    background-color: #f89320;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-overview img{
+    width: 50px;
+    height: 50px;
+}
+.reviews-section,.rating-section,.quality-section,.customer-section{
+   display: flex;
+   align-items: center;
+}
+.reviews,.rating,.quality,.customers{
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(243, 240, 240);
+}
+.reviews p span,.rating p span,.quality p span,.customers p span{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+/* .reviews,.rating,.quality,.customers,p :nth-child(1){
+    padding: 10px;
+    color: rgb(50, 48, 48);
+} */

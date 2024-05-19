@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    /* Include styles for the header as per the landing page */
+}
+
+.shopping-cart-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 85vw;
+}
+
+.left-container a{
+margin-top: 25vh;
+padding: 10px;
+text-decoration: none;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #282727;
+
+}
+.left-container, .right-container {
+    width: 45%;
+}
+
+.left-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
+
+
+}
+
+table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border-bottom: 1px solid rgb(230, 225, 225);
+color: #757474;
+    padding: 10px;
+    text-align: left;
+}
+
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.continue-shopping {
+    display: inline-block;
+    margin-top: 20px;
+    color: blue;
+    text-decoration: none;
+}
+
+.right-container .summary-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.summary-card p{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #757474;
+}
+
+.coupon-section {
+    display: flex;
+    margin-bottom: 20px;
+   
+}
+
+.coupon-section input {
+    /* flex: 1; */
+    width: 250px;
+    padding: 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: 18px;
+}
+
+.apply-coupon-btn {
+    padding: 10px 20px;
+    background-color: rgb(6, 6, 190);  font-family: sans-serif;
+    font-weight: 700;
+    font-style: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.summary-details p {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.pay-now-btn {
+    width: 50%;
+    margin-left: 20% ;
+    margin-top: 25px;
+    padding: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.payment-icons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.payment-icons img {
+    margin-top: 20px;
+    max-width: 150px;
+}

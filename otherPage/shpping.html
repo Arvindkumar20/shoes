@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="shopping.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="Navbar">
+            <div class="logo">Thala <span>7</span>.</div>
+            <div class="menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <select>
+                        <option value="">Brands</option>
+                        <option value="">Brands</option>
+                        <option value="">Brands</option>
+                    </select>
+                </li>
+                <li>
+                    <select>
+                        <option value=""><a href="#">More</a></option>
+                    </select>
+                </li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div> 
+        </nav>
+       <div class="search-section">
+            <div class="search-bar">
+<div class="search-box">
+    <div class="glass"><img src="../img/searchIcon.webp" alt=""></div>
+    <input type="text" placeholder="Search">
+</div>
+        </div>
+            <div class="card-section">
+             <img src="../img/card.webp" alt="cart">
+             <div class="card-content">0</div>
+            </div>
+            <div class="profile"><img src="../img/profile.webp" alt="pro"></div>
+        </div>
+    </header>
+
+    <main class="shopping-cart-container">
+        <div class="left-container">
+            <h1>Shopping Cart</h1>
+            <table>
+                <thead>
+                    <tr class="brd" >
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Remove</th>
+                       
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Product 1</td>
+                        <td>2</td>
+                        <td>$20.00</td>
+                        <td><button class="remove-btn">X</button></td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>1</td>
+                        <td>$15.00</td>
+                        <td><button class="remove-btn">X</button></td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>1</td>
+                        <td>$15.00</td>
+                        <td><button class="remove-btn">X</button></td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>1</td>
+                        <td>$15.00</td>
+                        <td><button class="remove-btn">X</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#" class="continue-shopping">< Continue Shopping</a>
+        </div>
+
+        <div class="right-container">
+            <div class="summary-card">
+                <p >Enter coupon code</p>
+                    <br>
+                <div class="coupon-section">
+                    
+                    <input type="text" placeholder="Coupon Code">
+                    <button class="apply-coupon-btn">Apply Coupon</button>
+                </div>
+                <div class="summary-details">
+                    <p>Sub Total: <span>$35.00</span></p>
+                    <p>Taxes: <span>$3.50</span></p>
+                    <p>Discount: <span>$-5.00</span></p>
+                    <p>Total: <span>$33.50</span></p>
+                </div>
+            </div>
+            <button class="pay-now-btn">Pay Now $ 33.50</button>
+            <div class="payment-icons">
+                <img src="../img/pay.webp" alt="Razorpay">
+                <img src="../img/razorpay.webp" alt="Razorpay">
+                <img src="../img/secure.webp" alt="Razorpay">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
